@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>pinchange</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="pinchange.css" type="text/css">
+</head>
+<body>
+<a href="LogoutServlet"><font color="white">Logout</font></a>
+
+<form action="Servletpinchange" method="post" id="pinchange">
+<div class="form">
+<h1><font color="Yellow">Change PIN </font></h1><br><br><br><br><br>
+<input type="password" name="currentpin" id="text1" placeholder="Your Current PIN" required><br><br>
+<input type="password" name="newpin" id="text1" placeholder="New PIN" required><br><br>
+<input type="number" name="cno" id="text1" placeholder="Card No" required><br><br>
+<br><br><br><br><br>
+<input type="submit" class="btn btn-info" value="CHANGE" onclick="location.href='#'" id="button">
+<input type="button" class="btn btn-info" value="Back" onclick="location.href='login.html'" id="button">
+</div>
+</form>
+</body>
+</head>
+</html>

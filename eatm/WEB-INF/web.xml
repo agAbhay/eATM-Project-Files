@@ -1,0 +1,70 @@
+
+<web-app>
+	<servlet>
+		<servlet-name>sample</servlet-name>
+		<servlet-class>LoginServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>sample</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	
+<servlet>
+    <servlet-name>Deposit</servlet-name>
+    <servlet-class>DepositServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Deposit</servlet-name>
+    <url-pattern>/depositservlet2</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>transfer</servlet-name>
+    <servlet-class>transfer</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>transfer</servlet-name>
+    <url-pattern>/servlet/transfer</url-pattern>
+  </servlet-mapping>
+<servlet>  
+    <description></description>  
+    <display-name>LogoutServlet</display-name>  
+    <servlet-name>LogoutServlet</servlet-name>  
+    <servlet-class>com.p1.LogoutServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>LogoutServlet</servlet-name>  
+    <url-pattern>/LogoutServlet</url-pattern>  
+  </servlet-mapping>
+
+  
+<servlet>
+    <servlet-name>balance</servlet-name>
+    <servlet-class>checkbalance</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>balance</servlet-name>
+    <url-pattern>/Servlet/checkbalance</url-pattern>
+ 
+ </servlet-mapping>
+
+<servlet>
+    <servlet-name>pinchange</servlet-name>
+    <servlet-class>pinchange</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>pinchange</servlet-name>
+    <url-pattern>/Servletpinchange</url-pattern>
+  </servlet-mapping>
+
+
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>

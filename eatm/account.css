@@ -1,0 +1,61 @@
+body{
+background-image:url(r.jpg);
+background-repeat:no-repeat;
+background-size:100% 700px;
+background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Mukta Mahee', sans-serif;
+
+}
+.form{
+text-align:left;
+margin:100px 400px;
+}
+.WebContainer{
+width:100%;
+min-width:1000px;
+height:auto;
+}
+
+#registration{
+width:100%;
+background-color:#057016;
+opacity:0.8;
+padding:50px 0px;
+}
+#button{
+width:300px;
+padding:10px;
+border-radious:50px;
+outline=0px;
+}
+#ph{
+width:55px;
+padding:5px;
+border-radious:4px;
+}
+#but{
+color: white;
+    font-size: 10px;
+}
+#butt{
+width:250px;
+padding:10px;
+border-radious:5px;
+outline:0px;
+background-color:#0c6996;
+border:2px solid:#01010c;
+color:aliceblue;
+font-size:18px;
+
+#checkbox{
+background: #742ecc;
+width:250px;
+padding:10px;
+border-radious:10px;
+outline=0px;
+}

@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>CardBlock</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="pinchange.css" type="text/css">
+</head>
+<body>
+<a href="LogoutServlet"><font color="white">Logout</font></a>
+
+<form action="depositservlet2" method="post">
+<div class="form">
+<h1><font color="Yellow">CARD BLOCKING </font></h1><br><br><br><br><br>
+<b><font color="blue"></font><br><br>
+<input type="text" name="cardno" id="button" placeholder="Enter your CardNO" required=""><br><br>
+<input type="password" name="pin" id="button" placeholder="Enter your Pin" required=""><br><br>
+<font color="Black">Select Question:<select name="Question" placeholder="select" required="">  
+						
+						
+						<option>Your SecretCode?</option>
+						<option>Your Girlfriend Name?</option>  
+						<option>Your Boyfriend Name?</option>  
+						<option>Your Super Hero?</option>  
+						</select><br></font> 
+<input type="password" name="Answer" id="text1" placeholder="Your Answer" required=""><br><br>
+<br><br><br>
+<input type="submit" value="Block" class="btn btn-info" id="button">
+<input type="button" class="btn btn-info" value="Back" onclick="location.href='login.html'" id="button">
+</div>
+</form>
+</body>
+</head>
+</html>

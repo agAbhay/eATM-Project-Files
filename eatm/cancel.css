@@ -1,0 +1,28 @@
+body{
+
+background-image:url(cl.jpg);
+background-repeat:no-repeat;
+background-size:100% 700px;
+background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Mukta Mahee', sans-serif;
+
+}
+.form
+{
+text-align:center;
+margin:30px 200px;
+}
+#h1{
+font-size:50px;
+}
+
+.WebContainer{
+width:100%;
+min-width:1000px;
+height:auto;
+}
